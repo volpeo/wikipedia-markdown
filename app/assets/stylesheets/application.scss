@@ -7,9 +7,22 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "simplemde";
 
 // Your CSS
 @import "layout/index";
 @import "components/index";
 @import "pages/index";
 @import "vendor/index";
+
+
+.post-title {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.post-content {
+  h1 {
+    font-size: 26px;
+  }
+}

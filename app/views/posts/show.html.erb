@@ -1,0 +1,8 @@
+<h1 class="post-title"><%= @post.title %></h1>
+
+<div class="post-content">
+  <%= markdown @post.content %>
+</div>
+
+<%= link_to "< Back", root_path %> |
+<%= link_to "Edit", edit_post_path(@post) %>
